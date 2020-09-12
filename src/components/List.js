@@ -21,7 +21,7 @@ const List = () => {
     }
 
     return(
-        <Fragment>
+        <div className="mt-4">
             <h2>List</h2>
             <ul>
             {
@@ -31,7 +31,7 @@ const List = () => {
             }
             </ul>
             <button onClick={addItem} className="btn btn-dark">Add item</button>
-        </Fragment>
+        </div>
     );
 }
 
